@@ -1,0 +1,86 @@
+.nav{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    color: white;
+}
+
+.center a{
+    padding: 30px;
+    color: white;
+    font-size: 24px;
+}
+
+.left a{
+    color: white;
+    margin-left:30px;
+    font-size: 24px;
+}
+
+.right{
+    margin-right: 30px;
+}
+
+.jumbotron {
+    background-image: url(image/cloud.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 30px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+ .jumbotron p{
+     margin-bottom: 50px;
+ }
+
+  .jumboCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: white;
+    text-align: center;
+  }
+
+.content {
+    padding: 50px;
+  }
+  .sectionHeading {
+    text-align: center;
+  }
+  .designIs  {
+    padding: 30px 30px 30px 30px;
+  }
+  .cardContainer {
+    text-align: center;
+  }
+  
+h2{
+    text-align: center;
+    color: #FA978A;
+}
+
+h4, h5{
+    color: black;
+}
+
+.cardContainer:hover{
+    transform: translateY(-10px);
+    transition: all 0.3s linear;
+}
+
+.left:hover{
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+
+.right:hover{
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+
+
