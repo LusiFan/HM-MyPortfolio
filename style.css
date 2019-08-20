@@ -83,4 +83,9 @@ h4, h5{
     transition: all 0.3s;
 }
 
+.arrow:hover{
+    transform: scale(1.5);
+    transition: all 0.3s;
+}
+
 
