@@ -15,9 +15,7 @@
 }
 
 .left a{
-    color: white;
     margin-left:30px;
-    font-size: 24px;
 }
 
 .right{
@@ -88,4 +86,34 @@ h4, h5{
     transition: all 0.3s;
 }
 
+@media screen and (max-width: 960px) {
+    .center a{
+        padding: 10px;
+        color: white;
+        font-size: 18px;
+    }
+    .left a{
+        margin-left:20px;
+    }
+    .right{
+        margin-right: 20px;
+    }
+    .cardContainer{
+        margin-bottom: 20px;
+    }
+    .nav img{
+        width: 60%;
+        height: 60%;
+    }
+    .jumbotron h1{
+        font-size: 36px;
+    }
+    .jumbotron p{
+        font-size: 12px;
+    }
+    .arrow{
+        width: 2rem;
+        height: 1.2rem;
+    }
+  }
 
